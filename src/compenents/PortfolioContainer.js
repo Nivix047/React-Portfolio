@@ -23,8 +23,8 @@ export default function PortfolioContainer() {
 
   const renderHeader = () => {
     return (
-      <div>
-        <h1>Daniel Xu</h1>
+      <div className="display-4">
+        <header>Daniel Xu</header>
       </div>
     );
   };
@@ -34,7 +34,11 @@ export default function PortfolioContainer() {
       <div className="d-flex justify-content-center">
         <footer>
           <span className="m-3">
-            <a href="https://www.linkedin.com/">
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
@@ -48,7 +52,11 @@ export default function PortfolioContainer() {
             </a>
           </span>
           <span className="m-3">
-            <a href="https://github.com/nivix047">
+            <a
+              href="https://github.com/nivix047"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
@@ -62,7 +70,11 @@ export default function PortfolioContainer() {
             </a>
           </span>
           <span className="m-3">
-            <a href="https://stackoverflow.com/">
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"

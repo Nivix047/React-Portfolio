@@ -6,10 +6,10 @@ import ResumePDF from "./ResumePDF";
 export default function Resume() {
   return (
     <div className="m-5">
-      <h1>Resume</h1>
+      <h3>Resume</h3>
       <div className="pb-2">
         Download my{" "}
-        <a href="#resumePDF" onClick={() => ResumePDF()}>
+        <a href="#resumePDF" onClick={() => <ResumePDF />}>
           resume
         </a>
         {/* <object width="100%" height="800" data={PDF} type="application/pdf" /> */}

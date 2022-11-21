@@ -3,7 +3,7 @@ import React from "react";
 export default function Portfolio() {
   return (
     <div className="m-5">
-      <h1>Porfolio</h1>
+      <h3>Porfolio</h3>
       <div className="container">
         <div className="row">
           <div className="col m-3 border border black">
