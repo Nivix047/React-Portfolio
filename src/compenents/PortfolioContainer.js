@@ -11,14 +11,15 @@ export default function PortfolioContainer() {
   const renderPage = () => {
     if (currentPage === "Home") {
       return <Home />;
-    }
-    if (currentPage === "Portfolio") {
+    } else if (currentPage === "Portfolio") {
       return <Portfolio />;
-    }
-    if (currentPage === "Contact") {
+    } else if (currentPage === "Contact") {
       return <Contact />;
+    } else if (currentPage === "Resume") {
+      return <Resume />;
+    } else {
+      return <Home />;
     }
-    return <Resume />;
   };
 
   const renderHeader = () => {
