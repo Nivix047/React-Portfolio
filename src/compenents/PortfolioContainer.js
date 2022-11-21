@@ -21,12 +21,25 @@ export default function PortfolioContainer() {
     return <Resume />;
   };
 
+  const renderFooter = () => {
+    return (
+      <div className="d-flex justify-content-center">
+        <footer>
+          <span className="m-3">LinkedIn</span>
+          <span className="m-3">GitHub</span>
+          <span className="m-3">StackOverFlow</span>
+        </footer>
+      </div>
+    );
+  };
+
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      {renderFooter()}
     </div>
   );
 }

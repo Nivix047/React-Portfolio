@@ -21,8 +21,8 @@ export default function Contact() {
           <label>Message:</label>
           <textarea className="form-control" rows="10"></textarea>
         </div>
-        <div class="form-group m-3">
-          <button type="submit" class="btn btn-dark">
+        <div className="form-group m-3">
+          <button type="submit" className="btn btn-dark">
             Submit
           </button>
         </div>
