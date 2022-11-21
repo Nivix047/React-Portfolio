@@ -7,10 +7,16 @@ export default function Portfolio() {
       <div className="container">
         <div className="row">
           <div className="col m-3 border border black">
-            <h1>Project 1</h1>
+            <h1>
+              <a href="https://katarinamihaylovich.github.io/film-buzz/">
+                Film Buzz
+              </a>
+            </h1>
           </div>
           <div className="col m-3 border border black">
-            <h1>Project 2</h1>
+            <h1>
+              <a href="https://jda-bank.herokuapp.com/login">JDA Bank</a>
+            </h1>
           </div>
           <div className="w-100"></div>
           <div className="col m-3 border border black">
