@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
 
   const renderHeader = () => {
     return (
-      <div className="display-4">
+      <div className="title display-4">
         <header>Daniel Xu</header>
       </div>
     );
@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
 
   const renderFooter = () => {
     return (
-      <div className="d-flex justify-content-center">
+      <div className="footer d-flex justify-content-center">
         <footer>
           <span className="m-3">
             <a

@@ -1,8 +1,10 @@
 import React from "react";
+import avatar from "../../assets/avatar.png";
 
 export default function home() {
   return (
     <div className="m-5">
+      <img src={avatar} className="avatar" alt="avatar" />
       <h3>About Me</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque

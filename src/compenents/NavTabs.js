@@ -3,7 +3,10 @@ import React from "react";
 function NavTabs({ handlePageChange }) {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light"
+        id="navbar"
+      >
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
