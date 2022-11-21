@@ -7,7 +7,13 @@ export default function Contact() {
       <form>
         <div className="form-group m-3">
           <label>Name:</label>
-          <textarea className="form-control" rows="1"></textarea>
+          <input
+            type="text"
+            className="form-control"
+            placeholder="name"
+            required
+            minLength="1"
+          />
         </div>
         <div className="form-group m-3">
           <label>Email address:</label>
@@ -15,11 +21,17 @@ export default function Contact() {
             type="email"
             className="form-control"
             placeholder="name@example.com"
+            pattern="/^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/"
           />
         </div>
         <div className="form-group m-3">
           <label>Message:</label>
-          <textarea className="form-control" rows="10"></textarea>
+          <textarea
+            className="form-control"
+            rows="10"
+            required
+            minLength="1"
+          ></textarea>
         </div>
         <div className="form-group m-3">
           <button type="submit" className="btn btn-dark">

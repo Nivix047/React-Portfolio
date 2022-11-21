@@ -1,4 +1,6 @@
 import React from "react";
+import ResumePDF from "./ResumePDF";
+
 // import PDF from "../../assets/fake-resume.pdf";
 
 export default function Resume() {
@@ -6,7 +8,10 @@ export default function Resume() {
     <div className="m-5">
       <h1>Resume</h1>
       <div className="pb-2">
-        Download my <a href="#">resume</a>
+        Download my{" "}
+        <a href="#resumePDF" onClick={() => ResumePDF()}>
+          resume
+        </a>
         {/* <object width="100%" height="800" data={PDF} type="application/pdf" /> */}
       </div>
       <ul>
