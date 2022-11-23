@@ -3,7 +3,7 @@ import React from "react";
 function NavTabs({ handlePageChange }) {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+      <nav className="navbar navbar-expand-lg bg-light" id="navbar">
         <div className="container-fluid">
           <a
             className="home navbar-brand"
