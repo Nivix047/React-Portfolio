@@ -46,7 +46,6 @@ export default function Resume() {
       {showPDF && (
         <div className="w-100">
           <object width="100%" height="600" data={PDF} type="application/pdf" />
-          ;
         </div>
       )}
     </div>

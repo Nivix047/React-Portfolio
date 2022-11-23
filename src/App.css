@@ -70,6 +70,9 @@
 
 .projects {
   height: 20vh;
+  background-image: url("./assets/checkered.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects:hover {
@@ -78,7 +81,7 @@
   transition: all 0.5s;
   transform: scale(1.1);
 }
-
+/* 
 #project-one {
   background-image: url("./assets/checkered.webp");
   background-repeat: no-repeat;
@@ -112,4 +115,4 @@
   background-image: url("./assets/polkadots.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
