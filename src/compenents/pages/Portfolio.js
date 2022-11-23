@@ -25,16 +25,12 @@ export default function Portfolio() {
     },
   ];
   return (
-    <div className="m-5">
-      <h3>Porfolio</h3>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            {data.map((project) => {
-              return <Project data={project} />;
-            })}
-          </div>
-        </div>
+    <div className="container">
+      <h3>Portfolio</h3>
+      <div className="row">
+        {data.map((project) => {
+          return <Project data={project} />;
+        })}
       </div>
     </div>
   );
