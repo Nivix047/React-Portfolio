@@ -7,7 +7,7 @@ function NavTabs({ handlePageChange }) {
         <div className="container-fluid">
           <a
             className="home navbar-brand"
-            href="home"
+            href="#home"
             onClick={() => handlePageChange("Home")}
           >
             About me
@@ -29,7 +29,7 @@ function NavTabs({ handlePageChange }) {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="#home"
+                  href="#portfolio"
                   onClick={() => handlePageChange("Portfolio")}
                 >
                   Portfolio
