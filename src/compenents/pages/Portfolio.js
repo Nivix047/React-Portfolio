@@ -12,7 +12,8 @@ export default function Portfolio() {
       projectURL: "https://jda-bank.herokuapp.com/login",
     },
     {
-      projectName: "Project 3",
+      projectName: "JDAB Bank",
+      projectURL: "https://jdab-bank-mern.herokuapp.com",
     },
     {
       projectName: "Project 4",
